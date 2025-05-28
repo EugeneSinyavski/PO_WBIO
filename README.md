@@ -33,7 +33,7 @@ npm install
 To run the automated tests:
 
 ```bash
-npx wdio run wdio.conf.js
+npm test
 ```
 
 ## 🛠️ Technologies Used
