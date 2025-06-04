@@ -2,17 +2,28 @@
     "env": {
         "commonjs": true,
         "es2021": true,
-        "node": true
+        "node": true,
+        "mocha": true
     },
     "extends": "airbnb-base",
     "parserOptions": {
         "ecmaVersion": "latest"
     },
+    "globals": {
+    "$": "readonly",
+    "$$": "readonly",
+    "browser": "readonly",
+    "expect": "readonly",
+    "describe": "readonly",
+    "it": "readonly",
+    "beforeEach": "readonly"
+  },
     "rules": {
         "class-methods-use-this": "off",
         "arrow-parens": "off",
         "prefer-arrow-callback": "off",
         "func-names": "off",
-        "object-curly-newline": "off"
+        "object-curly-newline": "off",
+        "max-len": ["error", { "code": 120 }]
     }
 }
