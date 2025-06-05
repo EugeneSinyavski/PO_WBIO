@@ -1,4 +1,21 @@
-node_modules
+# Node.js
+node_modules/
+
+# WebdriverIO
+allure-results/
+allure-report/
+.errorShots/
+artifacts/
+logs/
+
+# IDE/editor folders
+.DS_Store
+
+# ESLint cache
+.eslintcache
+
+# Mac OS
+.DS_Store
+
 test/
 y/
-.DS_Store
